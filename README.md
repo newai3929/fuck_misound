@@ -19,7 +19,7 @@
 没了。
 
 # 老兄，你的模块兼容性怎么样？🤔
-理论上是同时支持magisk和apatch的（magisk支持是最基础的，介于apatch同样支持magic mount的挂载方式，所以同样支持），经过测试，在apatch的11167版本上正常工作。
+理论上是同时支持magisk和apatch的（magisk支持是最基础的，介于apatch同样支持magic mount的挂载方式，所以同样支持），如果你使用magisk，最低版本要求27000。经过测试，在apatch的11167版本上正常工作。
 
 如果你是ksu类用户（包括kernelsu，sukisu ultra，kernelsu next，mksu等），请自行测试兼容性。（因为我的手机ksu是故障的，管理器会闪退，sukisu ultra又会报错，故没有测试）
 
