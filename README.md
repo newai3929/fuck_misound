@@ -63,7 +63,7 @@ getprop ro.vendor.audio.sfx.audiovisual
 
 2.把位于system.prop的代码加入模块中的system.prop。
 
-3.把位于service.sh的代码加入模块的services.sh（最好进行修改，否则有可能导致另一模块异常工作）。
+3.把位于service.sh的代码加入模块的service.sh（最好进行修改，否则有可能导致另一模块异常工作）。
 
 4.将system文件夹附加到模块中。
 
