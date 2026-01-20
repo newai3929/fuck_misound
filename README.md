@@ -61,13 +61,15 @@ getprop ro.vendor.audio.sfx.audiovisual
 
 2.把位于system.prop的代码加入模块中的system.prop。
 
-3.把位于service.sh的代码加入模块的services.sh（可能需要进行修改）。
+3.把位于service.sh的代码加入模块的services.sh（最好进行修改，否则有可能导致另一模块异常工作）。
 
 4.将system文件夹附加到模块中。
 
 5.重启设备。
 
 这么做将会使模块寄生在其他模块内，或者叫做对其他模块的功能补充，同样也可正常工作（在我的设备上正常运行）。
+
+当然，如果你不附加service.sh中的代码，理论上同样没有问题（但是如果出现模块不生效或是异常运行，可能无法有效解决，因为缺少日志描述，无法确认问题出现的情况）
 # 尼玛，为什么那个声音视效，我明明加入了视频文件，在音质音效里面还是提示“无法播放此视频”？🤔
 ![8f2764ca84099e198b6ebecb3dc3c988](https://github.com/user-attachments/assets/17a377f4-0ba7-44fa-bd5b-4fc06c62fc95)
 
